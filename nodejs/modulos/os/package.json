@@ -1,0 +1,13 @@
+{
+  "name": "os",
+  "version": "1.0.0",
+  "description": "Os módulos são uma parte essencial do Node.js, pois ajudam a organizar e reutilizar códigos em aplicações. Eles funcionam como \"blocos de construção\" que permitem dividir uma aplicação em partes menores e mais gerenciáveis.",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

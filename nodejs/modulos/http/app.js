@@ -1,5 +1,8 @@
 // importando o módulo http
-const http = require('http');
+//const http = require('http');
+
+import http from 'http';
+
 // criando um servidor HTTP
 http.createServer((req, res) => {
     // definindo o cabeçalho da resposta HTTP
