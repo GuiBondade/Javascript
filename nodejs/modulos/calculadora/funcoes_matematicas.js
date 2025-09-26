@@ -16,7 +16,3 @@ export function dividir(a, b) {
     }
     return a / b;
 }
-
-export function calcularIdade(anoNascimento) {
-    return new Date().getFullYear() - anoNascimento;
-x}
