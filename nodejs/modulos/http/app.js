@@ -10,3 +10,4 @@ http.createServer((req, res) => {
     // enviando a resposta "Hello World" para o cliente
     res.end('Hello World\n');
 }).listen(8080); // o servidor escuta na porta 8080
+console.log("Servidor rodando em http://localhost:8080/")

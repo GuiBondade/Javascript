@@ -1,0 +1,21 @@
+As principais diferenças entre ESModules e CommonJS são:
+
+Sintaxe
+CommonJS: Usa require e module.exports.
+ESModules: Usa import e export.
+Carregamento
+CommonJS: Carregamento síncrono (ideal para backend).
+ESModules: Carregamento assíncrono (melhor para frontend e aplicações modernas).
+Suporte
+CommonJS: Padrão no Node.js até recentemente.
+ESModules: Padrão em navegadores e recomendado para novos projetos Node.js.
+Compatibilidade
+CommonJS: Mais compatível com projetos antigos e muitos pacotes npm.
+ESModules: Requer configuração ("type": "module" no package.json ou extensão .mjs).
+Quando usar cada um?
+CommonJS:
+Use em projetos legados ou quando precisar de máxima compatibilidade com pacotes antigos.
+ESModules:
+Prefira em projetos novos, para integração com frontend, uso de sintaxe moderna e melhor interoperabilidade.
+Resumo:
+Use ESModules para novos projetos e CommonJS para manter compatibilidade com código antigo.
