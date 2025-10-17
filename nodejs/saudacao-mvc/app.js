@@ -12,6 +12,8 @@ app.use(express.urlencoded({ extended: true }));
 // Rotas
 const indexRoutes = require('./routes/index');
 app.use('/', indexRoutes);
+const usersRoutes = require('./routes/users');
+app.use('/users', usersRoutes);
 
 // Servidor
 app.listen(port, () => {
